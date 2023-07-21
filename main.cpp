@@ -1,8 +1,7 @@
-#include "LibNMath.h"
+#include <iostream>
 
 int main() {
-    std::string str = "aabb|";
-    auto data = Mul(str, 10);
-    std::cout << data << std::endl;
+    std::string str = "hello world!";
+    std::cout << str << std::endl;
     return 0;
 }

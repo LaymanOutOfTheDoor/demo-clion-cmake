@@ -25,6 +25,9 @@
 cmake_minimum_required(VERSION 3.25)
 project(Interview)
 set(CMAKE_CXX_STANDARD 17)
+set(HOME ${CMAKE_CURRENT_SOURCE_DIR})
+set(EXECUTABLE_OUTPUT_PATH ${HOME}/exe)
+
 add_subdirectory(problem)
 
 # 添加子目录Solution1
